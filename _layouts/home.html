@@ -5,7 +5,6 @@
     {% include page-nav.html %}
 
   <section>
-    <p><a href="/documents/UpcomingEvents.pdf">Click here to view upcoming events!</a></p>
 
     <h1>Welcome</h1>
     <p>The Shell Piano Studio offers both private and group lessons to students of all ages and abilities in the Northwood, Iowa area. </p>
@@ -21,6 +20,7 @@
     <p><strong>Savvy Seniors Group Lessons</strong> are offered for those folks who would like to either brush up on skills they used to have or acquire new skills along with a friend or two. No pressure, No recitals, just fun.</p>
     <br>
     <p>Adventure and Blast Off Group lessons run at the Northwood Community Center</p>
+    <p><a href="/documents/ShellPianoStudioCalendar.pdf">Click here to view the studio calendar!</a></p>
 
     <h2>Policy</h2>
 
@@ -82,12 +82,10 @@
     <li>Facebook Messenger: <a href="https://facebook.com/jodi.shell">jodi.shell</a></li>
     </ul>
     
-    <h1>Upcoming Events</h1>
-
-    <p><a href="/documents/UpcomingEvents.pdf">Click here to view upcoming events!</a></p>
-
     </section>
 
-	{{ content }}
+  {{ content }}
+  
+  {% include directory-links.html %}
 
 {% include footer.html %}
