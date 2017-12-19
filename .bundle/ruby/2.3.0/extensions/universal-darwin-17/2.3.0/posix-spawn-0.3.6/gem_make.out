@@ -1,0 +1,39 @@
+current directory: /Users/tshell/Websites/shellpiano/.bundle/ruby/2.3.0/gems/posix-spawn-0.3.6/ext
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20171219-2192-ngl5k3.rb extconf.rb 
+creating Makefile
+
+current directory: /Users/tshell/Websites/shellpiano/.bundle/ruby/2.3.0/gems/posix-spawn-0.3.6/ext
+make "DESTDIR=" clean
+
+current directory: /Users/tshell/Websites/shellpiano/.bundle/ruby/2.3.0/gems/posix-spawn-0.3.6/ext
+make "DESTDIR="
+compiling posix-spawn.c
+In file included from posix-spawn.c:14:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/ruby.h:33:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/ruby/ruby.h:24:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/universal-darwin17/ruby/config.h:17:9: warning: '_GNU_SOURCE' macro redefined [-Wmacro-redefined]
+#define _GNU_SOURCE 1
+        ^
+posix-spawn.c:3:9: note: previous definition is here
+#define _GNU_SOURCE
+        ^
+1 warning generated.
+In file included from posix-spawn.c:14:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/ruby.h:33:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/ruby/ruby.h:24:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/universal-darwin17/ruby/config.h:17:9: warning: '_GNU_SOURCE' macro redefined [-Wmacro-redefined]
+#define _GNU_SOURCE 1
+        ^
+posix-spawn.c:3:9: note: previous definition is here
+#define _GNU_SOURCE
+        ^
+1 warning generated.
+linking shared-object posix_spawn_ext.bundle
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/libressl/lib'
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/lib'
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/libressl/lib'
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/lib'
+
+current directory: /Users/tshell/Websites/shellpiano/.bundle/ruby/2.3.0/gems/posix-spawn-0.3.6/ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 posix_spawn_ext.bundle ./.gem.20171219-2192-1jkhkcz
