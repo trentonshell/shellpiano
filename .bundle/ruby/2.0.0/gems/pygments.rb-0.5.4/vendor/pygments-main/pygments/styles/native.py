@@ -23,7 +23,7 @@ class NativeStyle(Style):
     highlight_color = '#404040'
 
     styles = {
-        Token:              '#d0d0d0',
+        Token:              '#4f4f4f',
         Whitespace:         '#666666',
 
         Comment:            'italic #999999',
